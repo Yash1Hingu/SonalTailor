@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Sheet For Header -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sonal Tailor</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+
+        <!-- Container for  Responsive navbar-->
+        <div class="container">
+            <nav>
+                <a href="" class="brand-logo"><img src="images/logo.png" alt=""></a>
+
+                <!-- Responsive Navbar List Items -->
+                <ul class="navbar-collapse">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#home">About Us</a></li>
+                    <li><a href="#home">Services</a></li>
+                    <li><a href="#home">Sari</a></li>
+                    <li><a href="#home">Kurta Suits</a></li>
+                    <li><a href="#home">Blouse</a></li>
+                    <li><a href="#home">Contact Us</a></li>
+
+                    <!-- Mobile Version Show the Icon class item, all list item are disable until the click on the menu -->
+                    <li class="icon" id="crossicon"><a href="javascript:void(0);" onclick="dropdown();">&#9776;</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bcontainer">
+            <div class="banners-container">
+                <div class="banner" style="display: block;">
+                    <div class="back-img banner-img1"></div>
+                    <div class="text">
+                        <p>THE TRUE CUSTOM EXPERIENCE</p>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="back-img banner-img2"></div>
+                    <div class="text">
+                        <p>CUSTOM CHOLI : $2000</p>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="back-img banner-img3"></div>
+                    <div class="text">
+                        <p>DESINER'S</p>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="back-img banner-img4"></div>
+                    <div class="text">
+                        <p>Wedding Special</p>
+                    </div>
+                </div>
+
+
+                <button class="prev" onclick="plusSlide(-1);">&#10094;</button>
+                <button class="next" onclick="plusSlide(1);">&#10095;</button>
+
+                <div style="text-align: center;" class="dots">
+                    <span class="dot" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="into-container">
+            <h1>WELCOME TO BEST CUSTOM DESINER SHOP IN ANAND</h1>
+            <hr>
+            <P>SONAL TAILOR is a leader in custom tailored blouse,kurta,Wedding special in Anand.
+                We Specialize in providing women's custom Blouse,Kurta Set,Sari and Wedding Special Choli's,Perfectly
+                Tailored to fiting.
+                SONAL TAILOR offers the best quailty,service,fit and selection,while still maintaining reasonabled
+                prices.if your're looking for
+                best Women's custom Blouse in Anand,You've found the place!
+            </P>
+        </div>
+
+        <div class="services">
+            <div class="grid-services">
+                <div class="services-container">
+                    <div class="services1 services"></div>
+                    <div class="text">
+                        <h2>quailty<span> material</span></h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <div class="services2 services"></div>
+                    <div class="text">
+                        <h2><span>Complete</span> Fit</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="services-container">
+                    <div class="services3 services"></div>
+                    <div class="text">
+                        <h2><span>Resenable</span> Prices</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="howitworks">
+            <div class="howitworks-header">
+                <h2>HOW IT WORKS</h2>
+                <h3>The SONAL TAILOR custom EXPERIENCE</h3>
+            </div>
+            <div class="container">
+                <div class="howitworksgridsystem">
+                    <div class="steps">
+                        <h4>STEP 1</h4>
+                        <img src="howitworks/step1.jpg" alt="">
+                        <h4>SELECT FABRIC</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>STEP 2</h4>
+                        <img src="howitworks/step2.jpg" alt="">
+                        <h4>DESIGN YOUR CLOTHS</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>STEP 3</h4>
+                        <img src="howitworks/step3.jpg" alt="">
+                        <h4>GET MEASURED</h4>
+                    </div>
+                    <div class="steps">
+                        <h4>STEP 4</h4>
+                        <img src="howitworks/step4.jpg" alt="">
+                        <h4>DELIVERED</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Script For DropDown -->
+    <script src="script.js"></script>
+</body>
+
+</html>
