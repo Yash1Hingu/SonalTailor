@@ -460,4 +460,10 @@ nav .navbar-collapse .icon #crossicon {
         width: 40vw;
         height:40vw;
     }
+    .howitworks .howitworks-header h2{
+        font-size: 2rem;
+    }
+    .howitworks .howitworks-header h3{
+        font-size: 1.1rem;
+    }
 }
