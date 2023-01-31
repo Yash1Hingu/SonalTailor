@@ -381,8 +381,9 @@ nav .navbar-collapse .icon #crossicon {
         position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 12px;
         column-gap: 10px;
+        width: auto;
+        border-radius: 0;
     }
 
     .grid-services .services-container .text{
@@ -404,7 +405,7 @@ nav .navbar-collapse .icon #crossicon {
         display: none;
     }
 
-    .grid-services .services-container .services {
+    .services {
         border-radius: 5px;
     }
 }
