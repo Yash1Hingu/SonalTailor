@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/sariStyle.css">
+    <title>Sari | Sonal Tailor</title>
+</head>
+<body>
+    <header>
+        <!-- Container for  Responsive navbar-->
+        <div class="container">
+            <nav>
+                <a href="" class="brand-logo"><img src="images/logo.png" alt=""></a>
+
+                <!-- Responsive Navbar List Items -->
+                <div class="navbar-collapse">
+                    <a href="index.html">Home</a>
+                    <a href="#home">About Us</a>
+                    <a href="#home">Services</a>
+                    <a href="#"  class="active">Sari</a>
+                    <a href="#home">Kurta Suits</a>
+                    <a href="#home">Blouse</a>
+                    <a href="#home">Contact Us</a>
+
+                    <!-- Mobile Version Show the Icon class item, all list item are disable until the click on the menu -->
+                    <span class="icon" id="crossicon"><a href="javascript:void(0);" onclick="dropdown();">&#9776;</a></span>
+                </div>
+            </nav>
+
+            <div class="bcontainer">
+                <div class="banners-container">
+                    <div class="banner" style="display: block;">
+                        <div class="back-img" style="background-image: url(Sari/images/image1.jpg);"></div>
+                        <div class="text">
+                            <p>Special offers</p>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <div class="back-img" style="background-image: url(Sari/images/image2.jpg);"></div>
+                        <div class="text">
+                            <p>Custom Saree  :  1000$</p>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <div class="back-img" style="background-image: url(Sari/images/image3.jpg);"></div>
+                        <div class="text">
+                            <p>Special Indian Designs</p>
+                        </div>
+                    </div>
+    
+    
+                    <button class="prev" onclick="plusSlide(-1);">&#10094;</button>
+                    <button class="next" onclick="plusSlide(1);">&#10095;</button>
+    
+                    <div style="text-align: center;" class="dots">
+                        <span class="dot" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <!-- Script For DropDown -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
