@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style Sheet For Header -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Sonal Tailor</title>
 </head>
 
@@ -21,43 +21,43 @@
                 <a href="" class="brand-logo"><img src="images/logo.png" alt=""></a>
 
                 <!-- Responsive Navbar List Items -->
-                <ul class="navbar-collapse">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#home">About Us</a></li>
-                    <li><a href="#home">Services</a></li>
-                    <li><a href="#home">Sari</a></li>
-                    <li><a href="#home">Kurta Suits</a></li>
-                    <li><a href="#home">Blouse</a></li>
-                    <li><a href="#home">Contact Us</a></li>
+                <div class="navbar-collapse">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#home">About Us</a>
+                    <a href="#home">Services</a>
+                    <a href="sari.html">Sari</a>
+                    <a href="#home">Kurta Suits</a>
+                    <a href="#home">Blouse</a>
+                    <a href="#home">Contact Us</a>
 
                     <!-- Mobile Version Show the Icon class item, all list item are disable until the click on the menu -->
-                    <li class="icon" id="crossicon"><a href="javascript:void(0);" onclick="dropdown();">&#9776;</a></li>
-                </ul>
+                    <span class="icon" id="crossicon"><a href="javascript:void(0);" onclick="dropdown();">&#9776;</a></span>
+                </div>
             </nav>
         </div>
 
         <div class="bcontainer">
             <div class="banners-container">
                 <div class="banner" style="display: block;">
-                    <div class="back-img banner-img1"></div>
+                    <div class="back-img" style="background-image: url(banners/banner3.jpg);"></div>
                     <div class="text">
                         <p>THE TRUE CUSTOM EXPERIENCE</p>
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="back-img banner-img2"></div>
+                    <div class="back-img" style="background-image: url(banners/banner2.jpg);"></div>
                     <div class="text">
                         <p>CUSTOM CHOLI : $2000</p>
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="back-img banner-img3"></div>
+                    <div class="back-img" style="background-image: url(banners/banner4.jpg);"></div>
                     <div class="text">
                         <p>DESINER'S</p>
                     </div>
                 </div>
                 <div class="banner">
-                    <div class="back-img banner-img4"></div>
+                    <div class="back-img" style="background-image: url(banners/banner1.jpg);"></div>
                     <div class="text">
                         <p>Wedding Special</p>
                     </div>
@@ -79,6 +79,7 @@
 
     <main>
         <div class="into-container">
+            <a href="#" class="bookAppoint">Try New Design</a>
             <h1>WELCOME TO BEST CUSTOM DESINER SHOP IN ANAND</h1>
             <hr>
             <P>SONAL TAILOR is a leader in custom tailored blouse,kurta,Wedding special in Anand.
@@ -93,21 +94,21 @@
         <div class="services">
             <div class="grid-services">
                 <div class="services-container">
-                    <div class="services1 services"></div>
+                    <div class="services1 services" style="background-image: url(banners/services2.jpg);"></div>
                     <div class="text">
                         <h2>quailty<span> material</span></h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="services-container">
-                    <div class="services2 services"></div>
+                    <div class="services2 services" style="background-image: url(banners/services1.jpeg);"></div>
                     <div class="text">
                         <h2><span>Complete</span> Fit</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="services-container">
-                    <div class="services3 services"></div>
+                    <div class="services3 services" style="background-image: url(banners/services3.jpeg);"></div>
                     <div class="text">
                         <h2><span>Resenable</span> Prices</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -150,7 +151,7 @@
 
 
     <!-- Script For DropDown -->
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
